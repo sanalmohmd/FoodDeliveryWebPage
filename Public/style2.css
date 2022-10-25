@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier new';
+
+}
+
+header{
+    background-color: rgb(40, 45, 51);
+    height: 50px;
+    display: flex;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    height: 50px;
+    width: 70px;
+    border-radius: 20px 5px 10px 10px;
+}
+
+header a,li{
+    text-decoration: none;
+    list-style-type: none;
+    color:rgba(225, 220, 209, 0.65);
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 9px;
+    font-weight: 700;
+}
+
+.section1{
+    height: 110vh;
+    background-image: url(./Images/b.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.bannertext{
+    text-align: center;
+    padding-top: 180px;
+    color: antiquewhite;
+}
+
+.bannertext p{
+    padding-top: 20px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.bannertext button{
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid lightcyan;
+    color: whitesmoke;
+    font-weight: 700;
+    background-color: rgba(166, 123, 171, 0.725);
+}
+
+.secondpage{
+    height: 100vh;
+    background-color: bisque;
+
+}
+
+.secondpagehead h1{
+    color: darkslategrey;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.foodimg{
+    height: 200px;
+    width: 300px;
+    border-radius: 7px 20px 60px;
+}
+
+.cards{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+
+}
+
+.card{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    
+}
+
+.card h2{
+    color: slategray;
+}
+
+
+.thridpage{
+
+    height: 100vh;
+    
+}
+
+.firstsection{
+    height: 60vh;
+    padding-top: 200px ;
+    background-color: lightcyan;
+    align-items: center;
+
+}
+
+.firstsection h1{
+    color: rgb(68, 61, 61);
+    text-align: center;
+}
+
+.firstsection img{
+    height: 150px;
+    width: 200px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-radius: 10px 20px 30px 40px;
+
+
+
+}
+
+.forthpage{
+height: 100vh;
+background-color: lemonchiffon;
+
+}
+
+.firstline{
+    padding-top: 50px;
+}
+
+.firstline .formtag{
+    align-items: center;
+    border: 2px solid ;
+    border-radius: 7px;
+    width: 500px;
+    height: 300px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-top: 55px;
+
+}
+
+.formtag input,textarea,h2{
+    margin: 5px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    color: lightslategray;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
